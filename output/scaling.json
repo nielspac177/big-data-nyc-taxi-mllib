@@ -1,0 +1,25 @@
+{
+  "rows": 3000000,
+  "results": [
+    {
+      "cores": 1,
+      "train_seconds": 30.472605916991597,
+      "speedup": 1.0
+    },
+    {
+      "cores": 2,
+      "train_seconds": 15.817910666009993,
+      "speedup": 1.9264621327310982
+    },
+    {
+      "cores": 4,
+      "train_seconds": 11.029147499997634,
+      "speedup": 2.7629158026037945
+    },
+    {
+      "cores": 8,
+      "train_seconds": 6.46325495900237,
+      "speedup": 4.714746069942314
+    }
+  ]
+}

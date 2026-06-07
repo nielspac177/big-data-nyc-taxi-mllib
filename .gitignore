@@ -1,0 +1,31 @@
+# Datos (se descargan con scripts/download_data.py; no se versionan)
+data/
+*.parquet
+
+# Entorno
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.python-version
+
+# Spark / Java
+spark-warehouse/
+metastore_db/
+derby.log
+*.crc
+
+# LaTeX (artefactos de compilacion; se versiona el PDF final)
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.bbl
+paper/*.blg
+paper/*.toc
+paper/*.synctex.gz
+
+# SO
+.DS_Store
+
+# Salidas grandes (se versionan solo resumenes en output/)
+output/checkpoints/
